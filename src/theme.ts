@@ -1,10 +1,10 @@
-const theme = {
-  colors: {
-    brand: {
-      100: "#f7c948",
-      200: "#f59e0b",
-    },
-  },
+import { extendTheme } from "@chakra-ui/react";
+import type { ThemeConfig } from "@chakra-ui/react";
+
+const config: ThemeConfig = {
+  initialColorMode: "dark",
 };
+
+const theme = extendTheme({ config });
 
 export default theme;
