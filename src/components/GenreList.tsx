@@ -32,7 +32,7 @@ const GenreList = ({ onSelectGenre }: Props) => {
             ></Image>
             <Button
               onClick={() => onSelectGenre(genre)}
-              fontSize="lg"
+              fontSize="sm"
               variant="link"
             >
               {genre.name}
